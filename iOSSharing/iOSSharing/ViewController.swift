@@ -1,20 +1,18 @@
-//
-//  ViewController.swift
-//  iOSSharing
-//
-//  Created by Kan Ouivirach on 5/4/2563 BE.
-//  Copyright © 2563 ODDS. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        titleLabel.text = "My Swift"
     }
 
-
+    @IBAction func signinTouchUpInside(_ sender: Any) {
+        print("username: \(usernameTextField.text!) and password: \(passwordTextField.text!)")
+    }
 }
 
