@@ -17,6 +17,8 @@
 		DEA4F46E2439762A003AA829 /* iOSSharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4F46D2439762A003AA829 /* iOSSharingTests.swift */; };
 		DEA4F4792439762A003AA829 /* iOSSharingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4F4782439762A003AA829 /* iOSSharingUITests.swift */; };
 		DEA4F4872439C5C2003AA829 /* MyTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4F4862439C5C2003AA829 /* MyTableViewDelegate.swift */; };
+		DEA4F48A2439C7B6003AA829 /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4F4892439C7B6003AA829 /* MyCustomCell.swift */; };
+		DEA4F48C2439C7DB003AA829 /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA4F48B2439C7DB003AA829 /* MyCustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		DEA4F4782439762A003AA829 /* iOSSharingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSharingUITests.swift; sourceTree = "<group>"; };
 		DEA4F47A2439762A003AA829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEA4F4862439C5C2003AA829 /* MyTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewDelegate.swift; sourceTree = "<group>"; };
+		DEA4F4892439C7B6003AA829 /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
+		DEA4F48B2439C7DB003AA829 /* MyCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 		DEA4F45224397628003AA829 /* iOSSharing */ = {
 			isa = PBXGroup;
 			children = (
+				DEA4F4882439C782003AA829 /* MyCustomCell */,
 				DEA4F45324397628003AA829 /* AppDelegate.swift */,
 				DEA4F45524397628003AA829 /* SceneDelegate.swift */,
 				DEA4F45724397628003AA829 /* ViewController.swift */,
@@ -132,6 +137,15 @@
 				DEA4F47A2439762A003AA829 /* Info.plist */,
 			);
 			path = iOSSharingUITests;
+			sourceTree = "<group>";
+		};
+		DEA4F4882439C782003AA829 /* MyCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				DEA4F4892439C7B6003AA829 /* MyCustomCell.swift */,
+				DEA4F48B2439C7DB003AA829 /* MyCustomCell.xib */,
+			);
+			path = MyCustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +254,7 @@
 			files = (
 				DEA4F46324397629003AA829 /* LaunchScreen.storyboard in Resources */,
 				DEA4F46024397629003AA829 /* Assets.xcassets in Resources */,
+				DEA4F48C2439C7DB003AA829 /* MyCustomCell.xib in Resources */,
 				DEA4F45B24397628003AA829 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA4F48A2439C7B6003AA829 /* MyCustomCell.swift in Sources */,
 				DEA4F45824397628003AA829 /* ViewController.swift in Sources */,
 				DEA4F45424397628003AA829 /* AppDelegate.swift in Sources */,
 				DEA4F45E24397628003AA829 /* iOSSharing.xcdatamodeld in Sources */,
