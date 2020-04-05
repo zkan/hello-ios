@@ -16,6 +16,7 @@
 		DEA4F46324397629003AA829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA4F46124397629003AA829 /* LaunchScreen.storyboard */; };
 		DEA4F46E2439762A003AA829 /* iOSSharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4F46D2439762A003AA829 /* iOSSharingTests.swift */; };
 		DEA4F4792439762A003AA829 /* iOSSharingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4F4782439762A003AA829 /* iOSSharingUITests.swift */; };
+		DEA4F4872439C5C2003AA829 /* MyTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4F4862439C5C2003AA829 /* MyTableViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DEA4F4742439762A003AA829 /* iOSSharingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSSharingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA4F4782439762A003AA829 /* iOSSharingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSharingUITests.swift; sourceTree = "<group>"; };
 		DEA4F47A2439762A003AA829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA4F4862439C5C2003AA829 /* MyTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				DEA4F46124397629003AA829 /* LaunchScreen.storyboard */,
 				DEA4F46424397629003AA829 /* Info.plist */,
 				DEA4F45C24397628003AA829 /* iOSSharing.xcdatamodeld */,
+				DEA4F4862439C5C2003AA829 /* MyTableViewDelegate.swift */,
 			);
 			path = iOSSharing;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				DEA4F45824397628003AA829 /* ViewController.swift in Sources */,
 				DEA4F45424397628003AA829 /* AppDelegate.swift in Sources */,
 				DEA4F45E24397628003AA829 /* iOSSharing.xcdatamodeld in Sources */,
+				DEA4F4872439C5C2003AA829 /* MyTableViewDelegate.swift in Sources */,
 				DEA4F45624397628003AA829 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
