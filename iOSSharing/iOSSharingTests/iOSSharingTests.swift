@@ -30,5 +30,14 @@ class iOSSharingTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testAddition() {
+        let result = 1 + 1
+        XCTAssertEqual(result, 2)
+    }
+    
+    func testMyClass() {
+        
+    }
 
 }

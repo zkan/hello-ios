@@ -1,0 +1,6 @@
+framework module Pods_iOSSharingTests {
+  umbrella header "Pods-iOSSharingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

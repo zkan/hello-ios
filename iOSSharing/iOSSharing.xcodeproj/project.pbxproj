@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		424FA0E2A85BB20E0956AD7B /* Pods_iOSSharing_iOSSharingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D996C02D87F59D740CAC1C /* Pods_iOSSharing_iOSSharingUITests.framework */; };
+		C0F325BD285480917312E17E /* Pods_iOSSharingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B1BB0771630B1F617FA885 /* Pods_iOSSharingTests.framework */; };
 		DEA4F45424397628003AA829 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4F45324397628003AA829 /* AppDelegate.swift */; };
 		DEA4F45624397628003AA829 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4F45524397628003AA829 /* SceneDelegate.swift */; };
 		DEA4F45824397628003AA829 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4F45724397628003AA829 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 		DEA4F4872439C5C2003AA829 /* MyTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4F4862439C5C2003AA829 /* MyTableViewDelegate.swift */; };
 		DEA4F48A2439C7B6003AA829 /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4F4892439C7B6003AA829 /* MyCustomCell.swift */; };
 		DEA4F48C2439C7DB003AA829 /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA4F48B2439C7DB003AA829 /* MyCustomCell.xib */; };
+		DEA4F48E2439D24F003AA829 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4F48D2439D24F003AA829 /* ViewControllerB.swift */; };
+		FA2E55805BC2BF2CBA485435 /* Pods_iOSSharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40602425567247EE44113AF6 /* Pods_iOSSharing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40602425567247EE44113AF6 /* Pods_iOSSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B1BB0771630B1F617FA885 /* Pods_iOSSharingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSSharingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF3197D0792992CA2377FEE /* Pods-iOSSharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSharing.debug.xcconfig"; path = "Target Support Files/Pods-iOSSharing/Pods-iOSSharing.debug.xcconfig"; sourceTree = "<group>"; };
+		71D996C02D87F59D740CAC1C /* Pods_iOSSharing_iOSSharingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSSharing_iOSSharingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A152142E7D2AD3D68FC8A17C /* Pods-iOSSharing-iOSSharingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSharing-iOSSharingUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSSharing-iOSSharingUITests/Pods-iOSSharing-iOSSharingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C535ABC1071408D6DBEDB84E /* Pods-iOSSharing-iOSSharingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSharing-iOSSharingUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSSharing-iOSSharingUITests/Pods-iOSSharing-iOSSharingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C788AFDB3B65634603E37722 /* Pods-iOSSharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSharing.release.xcconfig"; path = "Target Support Files/Pods-iOSSharing/Pods-iOSSharing.release.xcconfig"; sourceTree = "<group>"; };
+		CD0617D6D352A5BF483D1C47 /* Pods-iOSSharingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSharingTests.release.xcconfig"; path = "Target Support Files/Pods-iOSSharingTests/Pods-iOSSharingTests.release.xcconfig"; sourceTree = "<group>"; };
 		DEA4F45024397628003AA829 /* iOSSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA4F45324397628003AA829 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEA4F45524397628003AA829 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +69,8 @@
 		DEA4F4862439C5C2003AA829 /* MyTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewDelegate.swift; sourceTree = "<group>"; };
 		DEA4F4892439C7B6003AA829 /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
 		DEA4F48B2439C7DB003AA829 /* MyCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCell.xib; sourceTree = "<group>"; };
+		DEA4F48D2439D24F003AA829 /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		EC6E6D5C72F57B808589F953 /* Pods-iOSSharingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSharingTests.debug.xcconfig"; path = "Target Support Files/Pods-iOSSharingTests/Pods-iOSSharingTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2E55805BC2BF2CBA485435 /* Pods_iOSSharing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F325BD285480917312E17E /* Pods_iOSSharingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424FA0E2A85BB20E0956AD7B /* Pods_iOSSharing_iOSSharingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9AB9D1299620A12D6838286B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40602425567247EE44113AF6 /* Pods_iOSSharing.framework */,
+				71D996C02D87F59D740CAC1C /* Pods_iOSSharing_iOSSharingUITests.framework */,
+				54B1BB0771630B1F617FA885 /* Pods_iOSSharingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DEA4F44724397628003AA829 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +118,8 @@
 				DEA4F46C2439762A003AA829 /* iOSSharingTests */,
 				DEA4F4772439762A003AA829 /* iOSSharingUITests */,
 				DEA4F45124397628003AA829 /* Products */,
+				FEF90D526D583524DC581271 /* Pods */,
+				9AB9D1299620A12D6838286B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +146,7 @@
 				DEA4F46424397629003AA829 /* Info.plist */,
 				DEA4F45C24397628003AA829 /* iOSSharing.xcdatamodeld */,
 				DEA4F4862439C5C2003AA829 /* MyTableViewDelegate.swift */,
+				DEA4F48D2439D24F003AA829 /* ViewControllerB.swift */,
 			);
 			path = iOSSharing;
 			sourceTree = "<group>";
@@ -148,6 +178,20 @@
 			path = MyCustomCell;
 			sourceTree = "<group>";
 		};
+		FEF90D526D583524DC581271 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AF3197D0792992CA2377FEE /* Pods-iOSSharing.debug.xcconfig */,
+				C788AFDB3B65634603E37722 /* Pods-iOSSharing.release.xcconfig */,
+				C535ABC1071408D6DBEDB84E /* Pods-iOSSharing-iOSSharingUITests.debug.xcconfig */,
+				A152142E7D2AD3D68FC8A17C /* Pods-iOSSharing-iOSSharingUITests.release.xcconfig */,
+				EC6E6D5C72F57B808589F953 /* Pods-iOSSharingTests.debug.xcconfig */,
+				CD0617D6D352A5BF483D1C47 /* Pods-iOSSharingTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEA4F47D2439762A003AA829 /* Build configuration list for PBXNativeTarget "iOSSharing" */;
 			buildPhases = (
+				FA42DD247FB18B623841C934 /* [CP] Check Pods Manifest.lock */,
 				DEA4F44C24397628003AA829 /* Sources */,
 				DEA4F44D24397628003AA829 /* Frameworks */,
 				DEA4F44E24397628003AA829 /* Resources */,
+				164A5D0EAC5C60082D442846 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEA4F4802439762A003AA829 /* Build configuration list for PBXNativeTarget "iOSSharingTests" */;
 			buildPhases = (
+				2EA519F1DC90225CD4F3907B /* [CP] Check Pods Manifest.lock */,
 				DEA4F4652439762A003AA829 /* Sources */,
 				DEA4F4662439762A003AA829 /* Frameworks */,
 				DEA4F4672439762A003AA829 /* Resources */,
@@ -190,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEA4F4832439762A003AA829 /* Build configuration list for PBXNativeTarget "iOSSharingUITests" */;
 			buildPhases = (
+				64D909055AE9CB32453089FC /* [CP] Check Pods Manifest.lock */,
 				DEA4F4702439762A003AA829 /* Sources */,
 				DEA4F4712439762A003AA829 /* Frameworks */,
 				DEA4F4722439762A003AA829 /* Resources */,
+				DC1D6AC616C64EC92E0AE014 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -275,12 +324,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		164A5D0EAC5C60082D442846 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSSharing/Pods-iOSSharing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSSharing/Pods-iOSSharing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSSharing/Pods-iOSSharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EA519F1DC90225CD4F3907B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSSharingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64D909055AE9CB32453089FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSSharing-iOSSharingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC1D6AC616C64EC92E0AE014 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSSharing-iOSSharingUITests/Pods-iOSSharing-iOSSharingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSSharing-iOSSharingUITests/Pods-iOSSharing-iOSSharingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSSharing-iOSSharingUITests/Pods-iOSSharing-iOSSharingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA42DD247FB18B623841C934 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSSharing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DEA4F44C24397628003AA829 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DEA4F48A2439C7B6003AA829 /* MyCustomCell.swift in Sources */,
+				DEA4F48E2439D24F003AA829 /* ViewControllerB.swift in Sources */,
 				DEA4F45824397628003AA829 /* ViewController.swift in Sources */,
 				DEA4F45424397628003AA829 /* AppDelegate.swift in Sources */,
 				DEA4F45E24397628003AA829 /* iOSSharing.xcdatamodeld in Sources */,
@@ -456,6 +609,7 @@
 		};
 		DEA4F47E2439762A003AA829 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF3197D0792992CA2377FEE /* Pods-iOSSharing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,6 +628,7 @@
 		};
 		DEA4F47F2439762A003AA829 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C788AFDB3B65634603E37722 /* Pods-iOSSharing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +647,7 @@
 		};
 		DEA4F4812439762A003AA829 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6E6D5C72F57B808589F953 /* Pods-iOSSharingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +670,7 @@
 		};
 		DEA4F4822439762A003AA829 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0617D6D352A5BF483D1C47 /* Pods-iOSSharingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +693,7 @@
 		};
 		DEA4F4842439762A003AA829 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C535ABC1071408D6DBEDB84E /* Pods-iOSSharing-iOSSharingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +714,7 @@
 		};
 		DEA4F4852439762A003AA829 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A152142E7D2AD3D68FC8A17C /* Pods-iOSSharing-iOSSharingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

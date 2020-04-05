@@ -1,4 +1,5 @@
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
@@ -17,11 +18,17 @@ class ViewController: UIViewController {
         tableView.estimatedRowHeight = 12
         tableView.rowHeight = UITableView.automaticDimension
         
+        myTableViewDelegate.delegate = self
+        
         tableView.dataSource = self
         tableView.delegate = myTableViewDelegate
         
         let nib = UINib(nibName: "MyCustomCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "myCell")
+        
+        AF.request("https://httpbin.org/get").response { response in
+            debugPrint(response)
+        }
     }
 
     @IBAction func signinTouchUpInside(_ sender: Any) {
@@ -51,6 +58,15 @@ extension ViewController: UITableViewDataSource {
         cell.label.text = "my custom cell @\(indexPath.row) \n my custom cell @\(indexPath.row) \n my custom cell @\(indexPath.row) \n my custom cell @\(indexPath.row) \n my custom cell @\(indexPath.row)"
         
         return cell
+    }
+    
+}
+
+extension ViewController: MyTableViewDelegateProtocol {
+    
+    func didSelectItem(_ indexPath: IndexPath) {
+        print("indexPath: \(indexPath.row)")
+//        performSegue(withIdentifier: "screenB", sender: nil)
     }
     
 }

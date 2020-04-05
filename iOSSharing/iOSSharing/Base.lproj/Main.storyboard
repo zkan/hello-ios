@@ -214,11 +214,40 @@ Thailand</string>
                         <outlet property="tableView" destination="lFL-lc-6wi" id="77b-ag-g52"/>
                         <outlet property="titleLabel" destination="9rx-iD-b3j" id="3IS-gu-qvT"/>
                         <outlet property="usernameTextField" destination="FR5-mR-hiH" id="hMU-Xa-UW5"/>
+                        <segue destination="DVJ-ZM-sK0" kind="show" identifier="screenB" id="Y7u-7e-VTy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="102.89855072463769" y="128.57142857142856"/>
+        </scene>
+        <!--View ControllerB-->
+        <scene sceneID="koT-1i-wQR">
+            <objects>
+                <viewController id="DVJ-ZM-sK0" customClass="ViewControllerB" customModule="iOSSharing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aqh-5r-wx2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zfo-D3-MJL">
+                                <rect key="frame" x="186" y="391" width="42" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="xm4-bB-rzr"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rZ4-Dt-oRL"/>
+                    <connections>
+                        <outlet property="label" destination="Zfo-D3-MJL" id="P3K-wb-xpk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ltR-TY-nl8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="979.71014492753636" y="112.5"/>
         </scene>
     </scenes>
     <resources>
