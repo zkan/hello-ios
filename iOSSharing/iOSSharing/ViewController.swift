@@ -13,6 +13,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         titleLabel.text = "My Swift"
         
+        // ใส่เลขที่ใกล้เคียงกับข้อมูลที่จะแสดง iOS จะ render ออกมาได้ไวที่สุด ปรับค่าให้เราโดยอัตโนมัติ
+        tableView.estimatedRowHeight = 12
+        tableView.rowHeight = UITableView.automaticDimension
+        
         tableView.dataSource = self
         tableView.delegate = myTableViewDelegate
         
@@ -44,7 +48,7 @@ extension ViewController: UITableViewDataSource {
         // ต้อง cast ให้เป็น MyCustomCell ถึงจะใช้ properties ข้างใน MyCustomCell ได้
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! MyCustomCell
         
-        cell.label.text = "my custom cell @\(indexPath.row)"
+        cell.label.text = "my custom cell @\(indexPath.row) \n my custom cell @\(indexPath.row) \n my custom cell @\(indexPath.row) \n my custom cell @\(indexPath.row) \n my custom cell @\(indexPath.row)"
         
         return cell
     }
