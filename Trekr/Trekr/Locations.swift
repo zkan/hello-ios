@@ -12,6 +12,10 @@ import Foundation
 class Locations: ObservableObject {
     let places: [Location]
     
+    var primary: Location {
+        places[0]
+    }
+    
     init() {
         // ! means it definitely finds the locations.json file
         let url = Bundle.main.url(forResource: "locations", withExtension: "json")!
