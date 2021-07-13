@@ -15,6 +15,7 @@ struct ContentView: View {
                 .scaledToFit()
 
             Text("The Highlands")
+                .font(.largeTitle)
         }
     }
 }
