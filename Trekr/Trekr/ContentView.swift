@@ -18,6 +18,10 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .bold()
                 .multilineTextAlignment(.center)
+            
+            Text("United Kingdom")
+                .font(.title)
+                .foregroundColor(.secondary)
         }
     }
 }
