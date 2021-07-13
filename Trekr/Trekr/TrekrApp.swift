@@ -9,11 +9,14 @@ import SwiftUI
 
 @main
 struct TrekrApp: App {
+    // When it is a class, use StateObject
+    @StateObject var locations = Locations()
+    
     var body: some Scene {
         WindowGroup {
             TabView {
                 NavigationView {
-                    ContentView(location: Locations().primary)
+                    ContentView(location: locations.primary)
                 }
                 .tabItem {
                     Image(systemName: "airplane.circle.fill")
@@ -28,6 +31,7 @@ struct TrekrApp: App {
                     Text("Locations")
                 }
             }
+            .environmentObject(locations)
         }
     }
 }
