@@ -9,9 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("highlands")
-            .resizable()
-            .scaledToFit()
+        VStack {
+            Image("highlands")
+                .resizable()
+                .scaledToFit()
+
+            Text("The Highlands")
+        }
     }
 }
 
