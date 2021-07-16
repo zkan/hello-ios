@@ -11,6 +11,8 @@
 		DE3A7C5326A1E0DF0000E70F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3A7C5226A1E0DF0000E70F /* ContentView.swift */; };
 		DE3A7C5526A1E0E00000E70F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE3A7C5426A1E0E00000E70F /* Assets.xcassets */; };
 		DE3A7C5826A1E0E00000E70F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE3A7C5726A1E0E00000E70F /* Preview Assets.xcassets */; };
+		DE3A7C6026A1E2960000E70F /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = DE3A7C5F26A1E2960000E70F /* drinks.json */; };
+		DE3A7C6226A1E2FE0000E70F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3A7C6126A1E2FE0000E70F /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		DE3A7C5426A1E0E00000E70F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE3A7C5726A1E0E00000E70F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE3A7C5926A1E0E00000E70F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE3A7C5F26A1E2960000E70F /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
+		DE3A7C6126A1E2FE0000E70F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				DE3A7C5226A1E0DF0000E70F /* ContentView.swift */,
 				DE3A7C5426A1E0E00000E70F /* Assets.xcassets */,
 				DE3A7C5926A1E0E00000E70F /* Info.plist */,
+				DE3A7C5F26A1E2960000E70F /* drinks.json */,
+				DE3A7C6126A1E2FE0000E70F /* Data.swift */,
 				DE3A7C5626A1E0E00000E70F /* Preview Content */,
 			);
 			path = CoffeeDBApp;
@@ -128,6 +134,7 @@
 			files = (
 				DE3A7C5826A1E0E00000E70F /* Preview Assets.xcassets in Resources */,
 				DE3A7C5526A1E0E00000E70F /* Assets.xcassets in Resources */,
+				DE3A7C6026A1E2960000E70F /* drinks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE3A7C5326A1E0DF0000E70F /* ContentView.swift in Sources */,
+				DE3A7C6226A1E2FE0000E70F /* Data.swift in Sources */,
 				DE3A7C5126A1E0DF0000E70F /* CoffeeDBAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1001,
+        "name": "Latte",
+        "imageName": "Latte",
+        "description": "This is Latte",
+        "category": "hot"
+    },
+    {
+        "id": 1002,
+        "name": "Cold Brew",
+        "imageName": "ColdBrew",
+        "description": "This is Cold Brew",
+        "category": "cold"
+    }
+]
