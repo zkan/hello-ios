@@ -14,6 +14,7 @@
 		DE3A7C6026A1E2960000E70F /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = DE3A7C5F26A1E2960000E70F /* drinks.json */; };
 		DE3A7C6226A1E2FE0000E70F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3A7C6126A1E2FE0000E70F /* Data.swift */; };
 		DE3A7C6426A1E4900000E70F /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3A7C6326A1E4900000E70F /* Drink.swift */; };
+		DE3A7C6626A1E55A0000E70F /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3A7C6526A1E55A0000E70F /* DrinkItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DE3A7C5F26A1E2960000E70F /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
 		DE3A7C6126A1E2FE0000E70F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		DE3A7C6326A1E4900000E70F /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		DE3A7C6526A1E55A0000E70F /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				DE3A7C5026A1E0DF0000E70F /* CoffeeDBAppApp.swift */,
 				DE3A7C5226A1E0DF0000E70F /* ContentView.swift */,
+				DE3A7C6526A1E55A0000E70F /* DrinkItem.swift */,
 				DE3A7C5426A1E0E00000E70F /* Assets.xcassets */,
 				DE3A7C5926A1E0E00000E70F /* Info.plist */,
 				DE3A7C5F26A1E2960000E70F /* drinks.json */,
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE3A7C5326A1E0DF0000E70F /* ContentView.swift in Sources */,
+				DE3A7C6626A1E55A0000E70F /* DrinkItem.swift in Sources */,
 				DE3A7C6226A1E2FE0000E70F /* Data.swift in Sources */,
 				DE3A7C6426A1E4900000E70F /* Drink.swift in Sources */,
 				DE3A7C5126A1E0DF0000E70F /* CoffeeDBAppApp.swift in Sources */,
