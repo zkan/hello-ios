@@ -8,19 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		DE3A7C5126A1E0DF0000E70F /* CoffeeDBAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3A7C5026A1E0DF0000E70F /* CoffeeDBAppApp.swift */; };
-		DE3A7C5326A1E0DF0000E70F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3A7C5226A1E0DF0000E70F /* ContentView.swift */; };
+		DE3A7C5326A1E0DF0000E70F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3A7C5226A1E0DF0000E70F /* Home.swift */; };
 		DE3A7C5526A1E0E00000E70F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE3A7C5426A1E0E00000E70F /* Assets.xcassets */; };
 		DE3A7C5826A1E0E00000E70F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE3A7C5726A1E0E00000E70F /* Preview Assets.xcassets */; };
 		DE3A7C6026A1E2960000E70F /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = DE3A7C5F26A1E2960000E70F /* drinks.json */; };
 		DE3A7C6226A1E2FE0000E70F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3A7C6126A1E2FE0000E70F /* Data.swift */; };
 		DE3A7C6426A1E4900000E70F /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3A7C6326A1E4900000E70F /* Drink.swift */; };
 		DE3A7C6626A1E55A0000E70F /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3A7C6526A1E55A0000E70F /* DrinkItem.swift */; };
+		DEB1A3F626A2657800D583CD /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB1A3F526A2657800D583CD /* DrinkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE3A7C4D26A1E0DF0000E70F /* CoffeeDBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeDBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3A7C5026A1E0DF0000E70F /* CoffeeDBAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDBAppApp.swift; sourceTree = "<group>"; };
-		DE3A7C5226A1E0DF0000E70F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE3A7C5226A1E0DF0000E70F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		DE3A7C5426A1E0E00000E70F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE3A7C5726A1E0E00000E70F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE3A7C5926A1E0E00000E70F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -28,6 +29,7 @@
 		DE3A7C6126A1E2FE0000E70F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		DE3A7C6326A1E4900000E70F /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		DE3A7C6526A1E55A0000E70F /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
+		DEB1A3F526A2657800D583CD /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				DE3A7C5026A1E0DF0000E70F /* CoffeeDBAppApp.swift */,
-				DE3A7C5226A1E0DF0000E70F /* ContentView.swift */,
+				DE3A7C5226A1E0DF0000E70F /* Home.swift */,
 				DE3A7C6526A1E55A0000E70F /* DrinkItem.swift */,
+				DEB1A3F526A2657800D583CD /* DrinkRow.swift */,
 				DE3A7C5426A1E0E00000E70F /* Assets.xcassets */,
 				DE3A7C5926A1E0E00000E70F /* Info.plist */,
 				DE3A7C5F26A1E2960000E70F /* drinks.json */,
@@ -151,7 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE3A7C5326A1E0DF0000E70F /* ContentView.swift in Sources */,
+				DE3A7C5326A1E0DF0000E70F /* Home.swift in Sources */,
+				DEB1A3F626A2657800D583CD /* DrinkRow.swift in Sources */,
 				DE3A7C6626A1E55A0000E70F /* DrinkItem.swift in Sources */,
 				DE3A7C6226A1E2FE0000E70F /* Data.swift in Sources */,
 				DE3A7C6426A1E4900000E70F /* Drink.swift in Sources */,
