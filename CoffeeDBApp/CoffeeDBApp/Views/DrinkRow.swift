@@ -20,9 +20,13 @@ struct DrinkRow: View {
             ScrollView(showsIndicators: false) {
                 HStack(alignment: .top) {
                     ForEach (self.drinks, id: \.self) { drink in
-                        DrinkItem(drink: drink)
-                            .frame(width: 300)
-                            .padding(.trailing, 30)
+                        
+                        NavigationLink(
+                            destination: DrinkDetail(drink: drink)) {
+                            DrinkItem(drink: drink)
+                                .frame(width: 300)
+                                .padding(.trailing, 30)
+                        }
                     }
                 }
             }

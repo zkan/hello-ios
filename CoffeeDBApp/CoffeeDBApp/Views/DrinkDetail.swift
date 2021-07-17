@@ -44,10 +44,15 @@ struct DrinkDetail: View {
                 HStack {
                     Spacer()
                     OrderButton()
-                    Spacer() 
+                    Spacer()
                 }
+                .padding(.top, 50)
             }
+            .padding(.top)
+            .padding(.bottom)
         }
+        .edgesIgnoringSafeArea(.top)
+//        .navigationBarHidden(true)
     }
 }
 
@@ -55,7 +60,14 @@ struct OrderButton: View {
     var body: some View {
         Button(action: {}) {
             Text("Order Now")
+                .frame(width: 200, height: 50)
+                .foregroundColor(.white)
+                .font(.headline)
+                .background(Color.blue)
+                .cornerRadius(10)
         }
+        
+        
     }
 }
 

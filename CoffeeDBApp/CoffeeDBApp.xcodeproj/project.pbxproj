@@ -65,15 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				DE3A7C5026A1E0DF0000E70F /* CoffeeDBAppApp.swift */,
-				DE3A7C5226A1E0DF0000E70F /* Home.swift */,
-				DE3A7C6526A1E55A0000E70F /* DrinkItem.swift */,
-				DEB1A3F726A26D3100D583CD /* DrinkDetail.swift */,
-				DEB1A3F526A2657800D583CD /* DrinkRow.swift */,
+				DEB1A3FA26A2748700D583CD /* Views */,
 				DE3A7C5426A1E0E00000E70F /* Assets.xcassets */,
 				DE3A7C5926A1E0E00000E70F /* Info.plist */,
 				DE3A7C5F26A1E2960000E70F /* drinks.json */,
-				DE3A7C6126A1E2FE0000E70F /* Data.swift */,
-				DE3A7C6326A1E4900000E70F /* Drink.swift */,
+				DEB1A3FB26A274AD00D583CD /* Models */,
 				DE3A7C5626A1E0E00000E70F /* Preview Content */,
 			);
 			path = CoffeeDBApp;
@@ -85,6 +81,26 @@
 				DE3A7C5726A1E0E00000E70F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DEB1A3FA26A2748700D583CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE3A7C5226A1E0DF0000E70F /* Home.swift */,
+				DE3A7C6526A1E55A0000E70F /* DrinkItem.swift */,
+				DEB1A3F726A26D3100D583CD /* DrinkDetail.swift */,
+				DEB1A3F526A2657800D583CD /* DrinkRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEB1A3FB26A274AD00D583CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE3A7C6126A1E2FE0000E70F /* Data.swift */,
+				DE3A7C6326A1E4900000E70F /* Drink.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
