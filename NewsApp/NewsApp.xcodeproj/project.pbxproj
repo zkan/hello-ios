@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		DEB1A42526A2843200D583CD /* NewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB1A42426A2843200D583CD /* NewsService.swift */; };
 		DEB1A42826A2880E00D583CD /* ResultState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB1A42726A2880E00D583CD /* ResultState.swift */; };
 		DEB1A42B26A2885500D583CD /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB1A42A26A2885500D583CD /* NewsViewModel.swift */; };
+		DEB1A42E26A28BA400D583CD /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = DEB1A42D26A28BA400D583CD /* URLImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB1A42E26A28BA400D583CD /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +161,9 @@
 			dependencies = (
 			);
 			name = NewsApp;
+			packageProductDependencies = (
+				DEB1A42D26A28BA400D583CD /* URLImage */,
+			);
 			productName = NewsApp;
 			productReference = DEB1A40526A27F9A00D583CD /* NewsApp.app */;
 			productType = "com.apple.product-type.application";
@@ -186,6 +191,9 @@
 				Base,
 			);
 			mainGroup = DEB1A3FC26A27F9A00D583CD;
+			packageReferences = (
+				DEB1A42C26A28BA400D583CD /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = DEB1A40626A27F9A00D583CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -408,6 +416,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DEB1A42C26A28BA400D583CD /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DEB1A42D26A28BA400D583CD /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEB1A42C26A28BA400D583CD /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DEB1A3FD26A27F9A00D583CD /* Project object */;
 }
