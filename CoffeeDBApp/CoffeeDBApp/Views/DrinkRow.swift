@@ -17,7 +17,7 @@ struct DrinkRow: View {
             Text(self.categoryName)
                 .font(.title)
             
-            ScrollView(showsIndicators: false) {
+            ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top) {
                     ForEach (self.drinks, id: \.self) { drink in
                         
