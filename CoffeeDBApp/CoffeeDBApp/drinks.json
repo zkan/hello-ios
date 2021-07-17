@@ -12,5 +12,12 @@
         "imageName": "ColdBrew",
         "description": "This is Cold Brew",
         "category": "cold"
+    },
+    {
+        "id": 1003,
+        "name": "Iced Latte",
+        "imageName": "IcedLatte",
+        "description": "This is Iced Latte",
+        "category": "cold"
     }
 ]
