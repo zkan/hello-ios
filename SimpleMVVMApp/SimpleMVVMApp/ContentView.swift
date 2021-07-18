@@ -6,13 +6,16 @@
 //
 
 import SwiftUI
+import Combine
 
 class ViewModel: ObservableObject  {
     @Published var myText: String = ""
     @Published var myMessage: String = "empty"
     
     init() {
-        
+        $myText
+            .map { $0.isEmpty ? "❌": "✅" }
+            .assign(to: &$myMessage)
     }
 }
 
