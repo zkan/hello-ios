@@ -7,10 +7,27 @@
 
 import SwiftUI
 
+class ViewModel: ObservableObject  {
+    @Published var myText: String = ""
+    @Published var myMessage: String = "empty"
+    
+    init() {
+        
+    }
+}
+
 struct ContentView: View {
+    @StateObject var model: ViewModel = ViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            TextField("Enter some text", text: $model.myText)
+                .border(Color.gray)
+            
+            Text("\(model.myMessage)")
+                .padding()
+        }
+        .padding()
     }
 }
 
