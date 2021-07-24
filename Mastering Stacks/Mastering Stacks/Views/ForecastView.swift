@@ -17,10 +17,18 @@ struct ForecastView: View {
                 .font(.system(size: 12, weight: .bold))
             Image(systemName: forecast.symbol)
                 .renderingMode(.original)
-            Text(forecast.temp.description)
+            Text(format(temp: forecast.temp))
                 .font(.system(size: 16, weight: .medium))
         }
         .foregroundColor(.white)
+    }
+    
+    private func format(temp: Double) -> String {
+        let formatter = MeasurementFormatter()
+        formatter.unitOptions = .temperatureWithoutUnit
+        
+        let tempInDegrees = Measurement(value: temp, unit: UnitTemperature.celsius)
+        return formatter.string(from: tempInDegrees)
     }
 }
 
