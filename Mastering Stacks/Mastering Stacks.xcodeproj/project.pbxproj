@@ -11,6 +11,7 @@
 		DE4186BC26AC4B370088DED7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4186BB26AC4B370088DED7 /* ContentView.swift */; };
 		DE4186BE26AC4B380088DED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4186BD26AC4B380088DED7 /* Assets.xcassets */; };
 		DE4186C126AC4B380088DED7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4186C026AC4B380088DED7 /* Preview Assets.xcassets */; };
+		DE4186CA26AC4BAA0088DED7 /* ForecastReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4186C926AC4BAA0088DED7 /* ForecastReading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		DE4186BD26AC4B380088DED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE4186C026AC4B380088DED7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE4186C226AC4B380088DED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4186C926AC4BAA0088DED7 /* ForecastReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastReading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		DE4186B826AC4B370088DED7 /* Mastering Stacks */ = {
 			isa = PBXGroup;
 			children = (
+				DE4186C826AC4B900088DED7 /* Models */,
 				DE4186B926AC4B370088DED7 /* Mastering_StacksApp.swift */,
 				DE4186BB26AC4B370088DED7 /* ContentView.swift */,
 				DE4186BD26AC4B380088DED7 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				DE4186C026AC4B380088DED7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE4186C826AC4B900088DED7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE4186C926AC4BAA0088DED7 /* ForecastReading.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE4186BC26AC4B370088DED7 /* ContentView.swift in Sources */,
+				DE4186CA26AC4BAA0088DED7 /* ForecastReading.swift in Sources */,
 				DE4186BA26AC4B370088DED7 /* Mastering_StacksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
