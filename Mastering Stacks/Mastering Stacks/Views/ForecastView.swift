@@ -12,7 +12,7 @@ struct ForecastView: View {
     let forecast: ForecastReading
     
     var body: some View {
-        VStack {
+        VStack(spacing: 12.0) {
             Text(forecast.time)
                 .font(.system(size: 12, weight: .bold))
             Image(systemName: forecast.symbol)
@@ -20,11 +20,15 @@ struct ForecastView: View {
             Text(forecast.temp.description)
                 .font(.system(size: 16, weight: .medium))
         }
+        .foregroundColor(.white)
     }
 }
 
 struct ForecastView_Previews: PreviewProvider {
     static var previews: some View {
         ForecastView(forecast: ForecastReading.dumpData.first!)
+            .previewLayout(.sizeThatFits)
+            .padding()
+            .background(Color.black)
     }
 }
