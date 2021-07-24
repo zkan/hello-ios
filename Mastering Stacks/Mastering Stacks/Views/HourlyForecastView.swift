@@ -15,6 +15,9 @@ struct HourlyForecastView: View {
                 Text("Hourly Forecast".uppercased())
                 Spacer()
             }
+            .font(.system(size: 12, weight: .light))
+            .foregroundColor(.white)
+            ForecastListView()
         }
     }
 }
@@ -22,5 +25,6 @@ struct HourlyForecastView: View {
 struct HourlyForecastView_Previews: PreviewProvider {
     static var previews: some View {
         HourlyForecastView()
+            .background(Color.black)
     }
 }
