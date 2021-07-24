@@ -13,6 +13,7 @@
 		DE4186C126AC4B380088DED7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4186C026AC4B380088DED7 /* Preview Assets.xcassets */; };
 		DE4186CA26AC4BAA0088DED7 /* ForecastReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4186C926AC4BAA0088DED7 /* ForecastReading.swift */; };
 		DE4186CD26AC4F290088DED7 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4186CC26AC4F290088DED7 /* ForecastView.swift */; };
+		DE4186CF26AC521E0088DED7 /* ForecastListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4186CE26AC521E0088DED7 /* ForecastListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DE4186C226AC4B380088DED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE4186C926AC4BAA0088DED7 /* ForecastReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastReading.swift; sourceTree = "<group>"; };
 		DE4186CC26AC4F290088DED7 /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
+		DE4186CE26AC521E0088DED7 /* ForecastListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				DE4186CC26AC4F290088DED7 /* ForecastView.swift */,
+				DE4186CE26AC521E0088DED7 /* ForecastListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE4186BC26AC4B370088DED7 /* ContentView.swift in Sources */,
+				DE4186CF26AC521E0088DED7 /* ForecastListView.swift in Sources */,
 				DE4186CA26AC4BAA0088DED7 /* ForecastReading.swift in Sources */,
 				DE4186BA26AC4B370088DED7 /* Mastering_StacksApp.swift in Sources */,
 				DE4186CD26AC4F290088DED7 /* ForecastView.swift in Sources */,
