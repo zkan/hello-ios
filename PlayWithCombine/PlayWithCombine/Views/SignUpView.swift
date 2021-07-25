@@ -9,14 +9,16 @@ import SwiftUI
 
 struct SignUpView: View {
     
-    @State var username: String
-    @State var password: String
+    @ObservedObject private var userViewModel = UserViewModel()
     
     var body: some View {
         Form {
             Section {
-                TextField("Username", text: $username)
-                SecureField("Password", text: $password)
+                TextField("Username", text: $userViewModel.username)
+                Section {
+                    SecureField("Password", text: $userViewModel.password)
+                    SecureField("Password Again", text: $userViewModel.passwordAgain)
+                }
             }
             Section {
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
@@ -30,6 +32,6 @@ struct SignUpView: View {
 
 struct SignUpView_Previews: PreviewProvider {
     static var previews: some View {
-        SignUpView(username: "", password: "")
+        SignUpView()
     }
 }

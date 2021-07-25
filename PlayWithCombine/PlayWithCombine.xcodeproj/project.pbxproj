@@ -12,6 +12,7 @@
 		DEF5B98626AD380B001B6094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF5B98526AD380B001B6094 /* Assets.xcassets */; };
 		DEF5B98926AD380B001B6094 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF5B98826AD380B001B6094 /* Preview Assets.xcassets */; };
 		DEF5B99226AD3847001B6094 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5B99126AD3847001B6094 /* SignUpView.swift */; };
+		DEF5B99526AD3CC8001B6094 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5B99426AD3CC8001B6094 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DEF5B98826AD380B001B6094 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEF5B98A26AD380B001B6094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEF5B99126AD3847001B6094 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		DEF5B99426AD3CC8001B6094 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		DEF5B98026AD380A001B6094 /* PlayWithCombine */ = {
 			isa = PBXGroup;
 			children = (
+				DEF5B99326AD3CB6001B6094 /* ViewModels */,
 				DEF5B99026AD382C001B6094 /* Views */,
 				DEF5B98126AD380A001B6094 /* PlayWithCombineApp.swift */,
 				DEF5B98326AD380A001B6094 /* ContentView.swift */,
@@ -78,6 +81,14 @@
 				DEF5B99126AD3847001B6094 /* SignUpView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		DEF5B99326AD3CB6001B6094 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DEF5B99426AD3CC8001B6094 /* UserViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEF5B98426AD380A001B6094 /* ContentView.swift in Sources */,
+				DEF5B99526AD3CC8001B6094 /* UserViewModel.swift in Sources */,
 				DEF5B99226AD3847001B6094 /* SignUpView.swift in Sources */,
 				DEF5B98226AD380A001B6094 /* PlayWithCombineApp.swift in Sources */,
 			);
