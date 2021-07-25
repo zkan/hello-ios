@@ -15,6 +15,7 @@ struct SignUpView: View {
         Form {
             Section {
                 TextField("Username", text: $userViewModel.username)
+                    .autocapitalization(.none)
                 Section {
                     SecureField("Password", text: $userViewModel.password)
                     SecureField("Password Again", text: $userViewModel.passwordAgain)
@@ -24,7 +25,7 @@ struct SignUpView: View {
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                     Text("Sign Up")
                 })
-                .disabled(true)
+                .disabled(!userViewModel.isValid)
             }
         }
     }
