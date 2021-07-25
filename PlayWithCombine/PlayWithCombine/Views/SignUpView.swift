@@ -8,13 +8,28 @@
 import SwiftUI
 
 struct SignUpView: View {
+    
+    @State var username: String
+    @State var password: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            Section {
+                TextField("Username", text: $username)
+                SecureField("Password", text: $password)
+            }
+            Section {
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Text("Sign Up")
+                })
+                .disabled(true)
+            }
+        }
     }
 }
 
 struct SignUpView_Previews: PreviewProvider {
     static var previews: some View {
-        SignUpView()
+        SignUpView(username: "", password: "")
     }
 }
